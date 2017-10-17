@@ -3,5 +3,24 @@
 }
 
 body {
-  background: white;
+  background: black;
+}
+
+
+
+.play {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pause {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  margin: 0 20px;
+  border-radius: 50%;
+    display: inline-block;
 }
