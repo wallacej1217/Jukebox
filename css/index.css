@@ -9,26 +9,57 @@ body {
 
 
 .play {
-  width: 50px;
-  height: 50px;
-  background: red;
-  border-radius: 50%;
-  display: inline-block;
+  background-color: red;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
 }
 
 .pause {
-  width: 50px;
-  height: 50px;
-  background: blue;
-  margin: 0 20px;
-  border-radius: 50%;
-    display: inline-block;
+  background-color: red;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
 }
 .stop {
-  width: 50px;
-  height: 50px;
-  background: yellow;
-  margin: 0 20px;
-  border-radius: 50%;
-    display: inline-block;
+  background-color: red;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+}
+
+.play:hover {
+    background-color: blue;
+    color: white;
+}
+
+.pause:hover {
+    background-color: blue;
+    color: white;
+}
+
+.stop:hover {
+    background-color: blue;
+    color: white;
 }
