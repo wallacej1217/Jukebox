@@ -5,9 +5,10 @@ var audio = document.getElementById('audio')
 console.log(audio)
 
 
+
 play.addEventListener('click', playAudio)
 pause.addEventListener('click', pauseAudio)
-stop.addEventListener('click', pauseAudio)
+stop.addEventListener('click', stopAudio)
 function pauseAudio(){
   audio.pause()
 }
@@ -19,8 +20,8 @@ function playAudio(){
   console.log(audio.duration)
 }
 
-Audio.prototype.stop = function()
+ function stopAudio()
 {
-    this.pause();
-    this.currentTime = 0.0;
+    audio.pause();
+    audio.currentTime = 0.0;
 }
